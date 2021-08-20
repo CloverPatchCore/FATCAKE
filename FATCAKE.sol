@@ -83,7 +83,7 @@ contract FATCAKE is ERC20, Ownable {
     	address indexed processor
     );
 
-    constructor() public ERC20("BABY CAKE", "FATCAKE") {
+    constructor() public ERC20("FAT CAKE", "FATCAKE") {
 
     	dividendTracker = new FATCAKEDividendTracker();
 
